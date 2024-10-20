@@ -21,7 +21,7 @@ If you haven't installed Bun yet, you can do so by following the instructions on
 You can run this script directly using Bun's `bunx` command:
 
 ```bash
-bunx jsr:@your-scope/size
+bunx jsr:@dalist1/sizr
 ```
 
 Make sure you're in the root directory of your npm project (where the `package.json` file is located) when running this command.
