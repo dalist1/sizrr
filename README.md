@@ -1,6 +1,6 @@
-# @dalist1/sizr
+# sizrr
 
-A simple command-line tool to analyze and display the sizes of npm packages in your project, published on JSR and designed to run with Bun.
+A simple command-line tool to analyze and display the sizes of npm packages in your project.
 
 ## Features
 
@@ -12,19 +12,36 @@ A simple command-line tool to analyze and display the sizes of npm packages in y
 
 ## Installation
 
-This package is published on JSR (JavaScript Registry). To use it, you need to have Bun installed on your system.
+This package is published on npm. You can install it globally:
 
-If you haven't installed Bun yet, you can do so by following the instructions on the [official Bun website](https://bun.sh/).
+```bash
+npm install -g sizrr
+```
+
+Or use it directly with npx (no installation required):
+
+```bash
+npx sizrr
+```
 
 ## Usage
 
-You can run this script directly using Bun's `bunx` command:
-
+If installed globally:
 ```bash
-bunx jsr:@dalist1/sizr
+sizrr
+```
+
+Without installation (using npx):
+```bash
+npx sizrr
 ```
 
 Make sure you're in the root directory of your npm project (where the `package.json` file is located) when running this command.
+
+If you want to skip the npx installation prompt:
+```bash
+npx --yes sizrr
+```
 
 ## Output
 
@@ -34,14 +51,22 @@ The output will look something like this:
 Package Sizes:
 ======================================
 express                     5.23 MB
-react                       3.45 MB
-lodash                      1.78 MB
+react                      3.45 MB
+lodash                     1.78 MB
 ...
 ======================================
-Total size:                64.32 MB
+Total size:               64.32 MB
 ```
 
 Packages are color-coded based on their size:
 - Green: Less than 1 MB
 - Yellow: Between 1 MB and 10 MB
 - Red: More than 10 MB
+
+## Requirements
+
+- Node.js >= 14.0.0
+
+## License
+
+MIT

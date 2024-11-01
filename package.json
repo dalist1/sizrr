@@ -1,0 +1,22 @@
+{
+  "name": "sizrr",
+  "version": "1.0.5",
+  "description": "A simple command-line tool to analyze and display the sizes of npm packages in your project.",
+  "main": "sizrr.js",
+  "type": "module",
+  "bin": {
+    "sizrr": "./sizrr.js"
+  },
+  "scripts": {
+    "start": "node sizrr.js"
+  },
+  "keywords": ["npm", "package", "size", "analyzer"],
+  "author": "dalist1",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

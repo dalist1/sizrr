@@ -1,5 +1,0 @@
-{
-    "name": "@dalist/sizr",
-    "version": "1.0.2",
-    "exports": "./sizr.js"
-  }
