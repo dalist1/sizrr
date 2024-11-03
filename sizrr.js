@@ -81,7 +81,6 @@ function sizr() {
   }
 }
 
-// Change the execution condition
 if (import.meta.url === import.meta.resolve(process.argv[1])) {
   sizr();
 }
