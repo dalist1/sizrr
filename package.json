@@ -1,7 +1,7 @@
 {
   "name": "sizrr",
-  "version": "1.0.6",
-  "description": "A simple command-line tool to analyze and display the sizes of npm packages in your project.",
+  "version": "1.0.7",
+  "description": "Advanced CLI tool for analyzing npm package sizes with visualization, outdated detection and detailed insights",
   "main": "sizrr.js",
   "type": "module",
   "bin": {
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node sizrr.js"
   },
-  "keywords": ["npm", "package", "size", "analyzer"],
+  "keywords": ["npm", "package", "size", "analyzer", "visualization", "dependency", "audit", "outdated"],
   "author": "dalist1",
   "license": "MIT",
   "repository": {
