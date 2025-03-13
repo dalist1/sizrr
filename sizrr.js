@@ -92,8 +92,6 @@ export const sizr = () => {
     const prodSize = total - devSize;
     
     console.log(`${pkgs.length} packages analyzed (${formatSize(total)} total)`);
-    
-    // Fixed header formatting without printf-style placeholders
     console.log("\n\x1b[1mPACKAGE                 SIZE       %    LICENSE   FILES   DEPS  TYPES   MODIFIED\x1b[0m");
     console.log("-".repeat(85));
     
